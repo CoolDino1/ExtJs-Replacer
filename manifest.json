@@ -1,0 +1,19 @@
+{
+
+
+  "description": "Since extjs.com was removed, many websites built with ExtJs no longer function as intended. This extension will replace extjs.com resources with files recovered from the Web Archive. *NOTE-- this extension is in active development and is not yet in working condition",
+  "manifest_version": 2,
+  "name": "ExtJs Replacer",
+  "version": "1.1",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
